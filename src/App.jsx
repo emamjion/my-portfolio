@@ -3,12 +3,17 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Header'
+import Home from './components/Home/Home'
 
 function App() {
   return (
     <>
       {/* Header section */}
       <Header/>
+      {/* Home section */}
+      <main className='main'>
+        <Home/>
+      </main>
     </>
   )
 }
