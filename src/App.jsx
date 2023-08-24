@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import About from './components/About/About'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 
@@ -12,7 +13,10 @@ function App() {
       <Header/>
       {/* Home section */}
       <main className='main'>
+        {/* Home section */}
         <Home/>
+        {/* About section */}
+        <About/>
       </main>
     </>
   )

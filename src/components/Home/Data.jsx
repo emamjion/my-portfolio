@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/images/Emam-Khalid-jion-resume.pdf';
 
 const Data = () => {
     return (
@@ -8,7 +9,7 @@ const Data = () => {
             <p className='home_description'>
                 I'm MERN Stack Developer. I'm very passionate and dedicated to my work.
             </p>
-            <a href="#" className='button button--flex'>Download Resume</a>
+            <a href={resume} download='' className='button button--flex'>Download Resume</a>
         </div>
     );
 };
